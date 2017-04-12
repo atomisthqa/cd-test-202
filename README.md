@@ -44,6 +44,34 @@ the project is currently set up for Atomist, it will also create the
 `.atomist` directory with appropriate initial contents like the
 `manifest.yml` and `package.json` files.
 
+### TEst
+
+Test
+
+#### Prerequisites
+
+This Rug has no prerequisites.
+
+#### Parameters
+
+This Rug takes following parameters.
+
+Name | Required | Default | Description
+-----|----------|---------|------------
+`projectName` | Yes | | Name of project to be created
+
+#### Running
+
+Run this Rug as follows:
+
+```
+$ cd parent/directory
+$ rug generate atomist-rugs:rug-editors:TEst \
+    my-new-project
+```
+
+Explain what your generator does here.
+
 ## Support
 
 General support questions should be discussed in the `#support`
